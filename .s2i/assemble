@@ -6,7 +6,7 @@ echo EXTRA REQUIREMENTS ARE:
 cat /opt/sms/requirements.txt
 
 virtualenv app 
-app/bin/pip install "cloudpickle == 0.5.3" "flask"
+app/bin/pip install "cloudpickle" "flask"
 
 process_each_first() {
     local IFS=","
